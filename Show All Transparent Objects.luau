@@ -1,0 +1,1 @@
+local function r(o)pcall(function()local function c()if o.Transparency==1 then o.Transparency=.5 pcall(function()o.Color=Color3.fromRGB(255,0,0)end) pcall(function()o.Material=Enum.Material.Neon end)end end c()o:GetPropertyChangedSignal("Transparency"):Connect(c)end)end;for _,o in ipairs(workspace:GetDescendants())do r(o)end;workspace.DescendantAdded:Connect(r)
