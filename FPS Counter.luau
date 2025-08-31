@@ -8,10 +8,10 @@ WARP["1"].ZIndexBehavior = Enum.ZIndexBehavior.Sibling
 WARP["2"] = Instance.new("Frame", WARP["1"])
 WARP["2"].Active = true
 WARP["2"].BorderSizePixel = 0
-WARP["2"].BackgroundColor3 = Color3.fromRGB(0, 0, 0)
+WARP["2"].BackgroundColor3 = Color3.fromRGB(18, 18, 21)
 WARP["2"].Size = UDim2.new(0, 94, 0, 44)
 WARP["2"].Position = UDim2.new(0, 168, 0, -46)
-WARP["2"].BackgroundTransparency = 0.15
+WARP["2"].BackgroundTransparency = 0.08
 
 WARP["3"] = Instance.new("UICorner", WARP["2"])
 WARP["3"].CornerRadius = UDim.new(0, 30)
