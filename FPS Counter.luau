@@ -14,7 +14,7 @@ WARP["2"].Position = UDim2.new(0, 168, 0, -46)
 WARP["2"].BackgroundTransparency = 0.08
 
 WARP["3"] = Instance.new("UICorner", WARP["2"])
-WARP["3"].CornerRadius = UDim.new(0, 30)
+WARP["3"].CornerRadius = UDim.new(1, 0)
 
 WARP["4"] = Instance.new("TextLabel", WARP["2"])
 WARP["4"].BorderSizePixel = 0
